@@ -42,8 +42,10 @@ def benchmark(sol_data, drop_cache):
 
 
 def drop_cache():
+    print('Clearing caches...')
     subprocess.check_output(
-        ['sudo', 'sh' '-c',  'echo 3 > /proc/sys/vm/drop_caches'])
+        ['sudo', 'sh', '-c',  'echo 3 > /proc/sys/vm/drop_caches'])
+    time.sleep(3) #give some time to system
 
 
 def benchmark_all(repo_name):
@@ -58,6 +60,7 @@ def benchmark_all(repo_name):
         found = False
         for sol_data in csv_reader:
             if (repo_name == 'all' or repo_name == sol_data['repo']):
+                drop_cache()
                 benchmark_results[sol_data['repo']
                                   ] = benchmark(sol_data, False)
                 found = True

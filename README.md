@@ -14,14 +14,16 @@ add your solution in `repos.txt`.
 
 To generate markdown table:
 
-`cat benchmark_results.csv | python3 tools/mdtable.py`
+`cat benchmark_results.csv | python3 tools/mdtable.py -separator:, `
 
 
 ## TODO 
-drop cache before each run with `echo 3 > /proc/sys/vm/drop_caches`
+drop cache before each run with `echo 3 > /proc/sys/vm/drop_caches`a
 
 ## Results
 
 | repo                        | lang | mean | stdev |
 |-----------------------------|------|------|-------|
-| scientist1642/hlm_challenge | Cpp  | 6153 | 453   |
+| scientist1642/hlm_challenge | Cpp  | 6683 | 874   |
+| intgr/anaXgram              | Rust | 8980 | 1188  |
+
