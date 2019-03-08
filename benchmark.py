@@ -3,6 +3,7 @@ import os
 import json
 import csv
 import time
+import sys
 import statistics
 
 RUN_COUNT = 30
@@ -10,7 +11,7 @@ RUN_COUNT = 30
 
 def benchmark(sol_data, drop_cache):
     rpname = sol_data['repo']
-    bench = {'repo': rpname, 'lang': sol_data['lang']}
+    bench = {'lang': sol_data['lang']}
 
     bench['drop_cache'] = drop_cache
     bench['run_times'] = []
@@ -42,15 +43,26 @@ def benchmark(sol_data, drop_cache):
 
 def drop_cache():
     subprocess.check_output(
-        ['sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"'])
+        ['sudo', 'sh' '-c',  'echo 3 > /proc/sys/vm/drop_caches'])
 
 
-def benchmark_all():
-    benchmark_results = []
+def benchmark_all(repo_name):
+    if repo_name == 'all':
+        benchmark_results = {}
+    else:
+        with open("benchmark_results.json", "r") as f:
+            benchmark_results = json.load(f)
+
     with open("repos.txt") as f:
         csv_reader = csv.DictReader(f, delimiter='|', skipinitialspace=True)
+        found = False
         for sol_data in csv_reader:
-            benchmark_results.append(benchmark(sol_data, False))
+            if (repo_name == 'all' or repo_name == sol_data['repo']):
+                benchmark_results[sol_data['repo']
+                                  ] = benchmark(sol_data, False)
+                found = True
+        if not found:
+            print('Repo name not found')
 
     with open("benchmark_results.json", "w") as f:
         json.dump(benchmark_results, f)
@@ -58,20 +70,20 @@ def benchmark_all():
 
 def generate_csv():
     with open("benchmark_results.json", "r") as f:
-        results = json.load(f)
+        result = json.load(f)
     with open("benchmark_results.csv", "w", newline='') as f:
         writer = csv.DictWriter(
             f, fieldnames=['repo', 'lang', 'mean', 'stdev'])
         writer.writeheader()
         row = {}
-        for result in results:
-            row['repo'] = result['repo']
-            row['lang'] = result['lang']
-            row['mean'] = int(statistics.mean(result['run_times']))
-            row['stdev'] = int(statistics.stdev(result['run_times']))
+        for repo_name, data in result.items():
+            row['repo'] = repo_name
+            row['lang'] = data['lang']
+            row['mean'] = int(statistics.mean(data['run_times']))
+            row['stdev'] = int(statistics.stdev(data['run_times']))
             writer.writerow(row)
 
 
 if __name__ == '__main__':
-    benchmark_all()
+    benchmark_all(sys.argv[1])
     generate_csv()
