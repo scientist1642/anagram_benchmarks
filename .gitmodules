@@ -1,0 +1,6 @@
+[submodule "solutions/intgr/anaXgram"]
+	path = solutions/intgr/anaXgram
+	url = git@github.com:intgr/anaXgram.git
+[submodule "solutions/scientist1642/hlm_challenge"]
+	path = solutions/scientist1642/hlm_challenge
+	url = git@github.com:scientist1642/hlm_challenge.git
