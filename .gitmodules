@@ -10,3 +10,7 @@
 [submodule "solutions/gdantimi/helmeschallenge"]
 	path = solutions/gdantimi/helmeschallenge
 	url = https://github.com/gdantimi/helmeschallenge.git
+[submodule "solutions/Lauri-Nomme/filteranagrams"]
+	path = solutions/Lauri-Nomme/filteranagrams
+	url = https://github.com/Lauri-Nomme/filteranagrams.git
+	branch = mmap
