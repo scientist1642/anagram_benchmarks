@@ -4,12 +4,10 @@ Obviously timing will be differt on different machines, so you can run this on y
 open an issue if you want to add your solution in results.
 
 # Usage
-add your solution in `repos.txt`.
+`git clone https://github.com/scientist1642/anagram_benchmarks --recursive`
 
 `python3 benchmark.py [repo_name | all]` 
-
 `python3 benchmark.py all` - benchmark all solutions - takes a long time
-
 `python3 benchmark.py username/reponame` - benchmark a specific solution.
 
 To generate markdown table:
