@@ -24,13 +24,12 @@ Drop cache before each run with `echo 3 > /proc/sys/vm/drop_caches`a
 ## Results
 Done on ubuntu 18.04 64bit virtualbox vm 2 cpu / Macos 2014 2ghz
 
-| repo                        | lang | mean  | stdev |
-|-----------------------------|------|-------|-------|
-| intgr/anaXgram              | Rust | 8915  | 2431  |
-| scientist1642/hlm_challenge | Cpp  | 6209  | 1160  |
-| adamsont/helmes_challenge   | C    | 13390 | 2309  |
-| gdantimi/helmeschallenge    | Java | 70105 | 9939  |
-
+| repo                        | lang | mean  | stdev | cpu_info                                         |
+|-----------------------------|------|-------|-------|--------------------------------------------------|
+| intgr/anaXgram              | Rust | 8393  | 1550  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| scientist1642/hlm_challenge | Cpp  | 6005  | 1010  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| adamsont/helmes_challenge   | C    | 12097 | 1507  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| gdantimi/helmeschallenge    | Java | 74759 | 11626 | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
 
 
 ubuntu 18.04 ryzen 1700x 8 core

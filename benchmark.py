@@ -12,6 +12,10 @@ RUN_COUNT = 30
 def benchmark(sol_data, drop_cache):
     rpname = sol_data['repo']
     bench = {'lang': sol_data['lang']}
+    cpu_name = subprocess.check_output(['bash', '-c', "cat /proc/cpuinfo  | grep 'name'| uniq"]).decode('utf-8').split(':')[1].strip()
+    process_count =  subprocess.check_output(['bash', '-c', "cat /proc/cpuinfo  | grep process| wc -l "]).decode('utf-8').strip()
+    full_name = '{} {} PROC'.format(cpu_name, process_count)
+    bench['cpu_info'] = full_name
 
     bench['drop_cache'] = drop_cache
     bench['run_times'] = []
@@ -76,7 +80,7 @@ def generate_csv():
         result = json.load(f)
     with open("benchmark_results.csv", "w", newline='') as f:
         writer = csv.DictWriter(
-            f, fieldnames=['repo', 'lang', 'mean', 'stdev'])
+            f, fieldnames=['repo', 'lang', 'mean', 'stdev', 'cpu_info'])
         writer.writeheader()
         row = {}
         for repo_name, data in result.items():
@@ -84,6 +88,7 @@ def generate_csv():
             row['lang'] = data['lang']
             row['mean'] = int(statistics.mean(data['run_times']))
             row['stdev'] = int(statistics.stdev(data['run_times']))
+            row['cpu_info'] = data['cpu_info']
             writer.writerow(row)
 
 
