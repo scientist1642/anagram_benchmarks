@@ -3,3 +3,4 @@ intgr/anaXgram| ./bin/analgram| Rust
 scientist1642/hlm_challenge| ./bin/app| Cpp
 adamsont/helmes_challenge| chmod +x bin/app && ./bin/app| C
 gdantimi/helmeschallenge| java -jar bin/anagramApplication.jar| Java
+Lauri-Nomme/filteranagrams| ./bin/filteranagrams| C
