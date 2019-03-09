@@ -32,7 +32,7 @@ def benchmark(sol_data, drop_cache):
 
         time_micr = res.strip().split(',')[0]
         print('{} run #{} time {}'.format(rpname, i, time_micr))
-        bench['run_times'].append(int(time_micr))
+        bench['run_times'].append(int(float(time_micr)))
 
         if (drop_cache):
             time.sleep(2)

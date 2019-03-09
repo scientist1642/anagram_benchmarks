@@ -1,4 +1,5 @@
 repo| exec| lang
 scientist1642/hlm_challenge| ./bin/app| Cpp
 intgr/anaXgram| ./bin/analgram| Rust
+adamsont/helmes_challenge| ./bin/app| C
 

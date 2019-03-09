@@ -4,3 +4,6 @@
 [submodule "solutions/scientist1642/hlm_challenge"]
 	path = solutions/scientist1642/hlm_challenge
 	url = https://github.com/scientist1642/hlm_challenge.git
+[submodule "solutions/adamsont/helmes_challenge"]
+	path = solutions/adamsont/helmes_challenge
+	url = https://github.com/adamsont/helmes_challenge.git
