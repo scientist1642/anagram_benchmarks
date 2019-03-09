@@ -16,6 +16,9 @@ To generate markdown table:
 
 `cat benchmark_results.csv | python3 tools/mdtable.py -separator:, `
 
+### adding new solution 
+update `repos.txt` and 
+`git submodule add https://github.com/adamsont/helmes_challenge.git solutions/adamsont/helmes_challenge`
 
 ## TODO 
 drop cache before each run with `echo 3 > /proc/sys/vm/drop_caches`a
