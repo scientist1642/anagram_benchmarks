@@ -7,3 +7,6 @@
 [submodule "solutions/adamsont/helmes_challenge"]
 	path = solutions/adamsont/helmes_challenge
 	url = https://github.com/adamsont/helmes_challenge.git
+[submodule "solutions/gdantimi/helmeschallenge"]
+	path = solutions/gdantimi/helmeschallenge
+	url = https://github.com/gdantimi/helmeschallenge.git

@@ -28,9 +28,11 @@ Done on ubuntu 18.04 64bit virtualbox vm 2 cpu / Macos 2014 2ghz
 
 | repo                        | lang | mean  | stdev |
 |-----------------------------|------|-------|-------|
-| intgr/anaXgram              | Rust | 7859  | 1632  |
-| scientist1642/hlm_challenge | Cpp  | 5348  | 824   |
-| adamsont/helmes_challenge   | C    | 12557 | 1425  |
+| intgr/anaXgram              | Rust | 7129  | 3141  |
+| scientist1642/hlm_challenge | Cpp  | 4750  | 188   |
+| adamsont/helmes_challenge   | C    | 13534 | 3078  |
+| gdantimi/helmeschallenge    | Java | 68885 | 9274  |
+
 
 ubuntu 18.04 ryzen 1700x 8 core
 
