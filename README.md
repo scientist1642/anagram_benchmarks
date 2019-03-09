@@ -26,11 +26,11 @@ Done on ubuntu 18.04 64bit virtualbox vm 2 cpu / Macos 2014 2ghz
 
 | repo                        | lang | mean  | stdev | cpu_info                                         |
 |-----------------------------|------|-------|-------|--------------------------------------------------|
-| intgr/anaXgram              | Rust | 8393  | 1550  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| scientist1642/hlm_challenge | Cpp  | 6005  | 1010  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| adamsont/helmes_challenge   | C    | 12097 | 1507  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| gdantimi/helmeschallenge    | Java | 74759 | 11626 | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-
+| intgr/anaXgram              | Rust | 8515  | 2177  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| scientist1642/hlm_challenge | Cpp  | 6561  | 4229  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| adamsont/helmes_challenge   | C    | 13858 | 3506  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| gdantimi/helmeschallenge    | Java | 68373 | 9079  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| Lauri-Nomme/filteranagrams  | C    | 8666  | 1562  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
 
 ubuntu 18.04 ryzen 1700x 8 core
 
