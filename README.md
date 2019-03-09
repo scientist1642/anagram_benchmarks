@@ -24,9 +24,5 @@ update `repos.txt` and
 drop cache before each run with `echo 3 > /proc/sys/vm/drop_caches`a
 
 ## Results
+Done on ubuntu 18.04 64bit virtualbox vm 2 cpu / Macos 2014 2ghz
 
-| repo                        | lang | mean  | stdev |
-|-----------------------------|------|-------|-------|
-| scientist1642/hlm_challenge | Cpp  | 7170  | 1556  |
-| intgr/anaXgram              | Rust | 8917  | 1208  |
-| adamsont/helmes_challenge   | C    | 12432 | 1393  |
