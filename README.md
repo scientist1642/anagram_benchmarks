@@ -41,3 +41,14 @@ ubuntu 18.04 ryzen 1700x 8 core
 | adamsont/helmes_challenge   | C    | 11397 | 3000  | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
 | gdantimi/helmeschallenge    | Java | 55480 | 11278 | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
 | Lauri-Nomme/filteranagrams  | C    | 3833  | 171   | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
+
+i7-7700HQ
+
+| repo                             | lang | mean  | stdev | cpu_info                                         |
+|----------------------------------|------|-------|-------|--------------------------------------------------|
+| adamsont/helmes_challenge        | C    | 15745 | 1144  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
+| intgr/anaXgram                   | Rust | 12743 | 1544  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
+| scientist1642/hlm_challenge      | Cpp  | 9575  | 1621  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
+| Lauri-Nomme/filteranagrams       | C    | 11959 | 1312  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
+| gdantimi/helmeschallenge         | Java | 55880 | 8518  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
+| Lauri-Nomme/filteranagrams-pread | C    | 11637 | 1250  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
