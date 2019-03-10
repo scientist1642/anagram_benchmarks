@@ -36,7 +36,8 @@ ubuntu 18.04 ryzen 1700x 8 core
 
 | repo                        | lang | mean  | stdev | cpu_info                                      |
 |-----------------------------|------|-------|-------|-----------------------------------------------|
-| intgr/anaXgram              | Rust | 7091  | 3115  | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
-| scientist1642/hlm_challenge | Cpp  | 4753  | 283   | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
-| adamsont/helmes_challenge   | C    | 11400 | 2592  | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
-| gdantimi/helmeschallenge    | Java | 53828 | 8846  | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
+| intgr/anaXgram              | Rust | 7130  | 3044  | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
+| scientist1642/hlm_challenge | Cpp  | 4762  | 197   | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
+| adamsont/helmes_challenge   | C    | 11397 | 3000  | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
+| gdantimi/helmeschallenge    | Java | 55480 | 11278 | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
+| Lauri-Nomme/filteranagrams  | C    | 3833  | 171   | AMD Ryzen 7 1700 Eight-Core Processor 16 PROC |
