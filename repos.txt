@@ -4,3 +4,4 @@ scientist1642/hlm_challenge| ./bin/app| Cpp
 adamsont/helmes_challenge| chmod +x bin/app && ./bin/app| C
 gdantimi/helmeschallenge| java -jar bin/anagramApplication.jar| Java
 Lauri-Nomme/filteranagrams| ./bin/filteranagrams| C
+f0c14e08c2/adfa074714| cd bin && java AnagramApplication| Java

@@ -14,3 +14,6 @@
 	path = solutions/Lauri-Nomme/filteranagrams
 	url = https://github.com/Lauri-Nomme/filteranagrams.git
 	branch = mmap
+[submodule "solutions/f0c14e08c2/adfa074714"]
+	path = solutions/f0c14e08c2/adfa074714
+	url = https://github.com/f0c14e08c2/adfa074714.git

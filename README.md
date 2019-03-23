@@ -26,11 +26,12 @@ Done on ubuntu 18.04 64bit virtualbox vm 2 cpu / Macos 2014 2ghz
 
 | repo                        | lang | mean  | stdev | cpu_info                                         |
 |-----------------------------|------|-------|-------|--------------------------------------------------|
-| intgr/anaXgram              | Rust | 8515  | 2177  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| scientist1642/hlm_challenge | Cpp  | 6561  | 4229  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| adamsont/helmes_challenge   | C    | 13858 | 3506  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| gdantimi/helmeschallenge    | Java | 68373 | 9079  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
-| Lauri-Nomme/filteranagrams  | C    | 8666  | 1562  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| intgr/anaXgram              | Rust | 9025  | 1574  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| scientist1642/hlm_challenge | Cpp  | 6137  | 1259  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| adamsont/helmes_challenge   | C    | 13431 | 3415  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| gdantimi/helmeschallenge    | Java | 73790 | 13149 | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| Lauri-Nomme/filteranagrams  | C    | 8374  | 1358  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
+| f0c14e08c2/adfa074714       | Java | 6516  | 1046  | Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC |
 
 ubuntu 18.04 ryzen 1700x 8 core
 
@@ -52,3 +53,12 @@ i7-7700HQ
 | Lauri-Nomme/filteranagrams       | C    | 11959 | 1312  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
 | gdantimi/helmeschallenge         | Java | 55880 | 8518  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
 | Lauri-Nomme/filteranagrams-pread | C    | 11637 | 1250  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
+
+i7-6700HQ
+| repo                        | lang | mean | stdev | cpu_info                                         |
+|-----------------------------|------|------|-------|--------------------------------------------------|
+| intgr/anaXgram              | Rust | 1901 | 211   | Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 8 PROC |
+| scientist1642/hlm_challenge | Cpp  | 2837 | 1488  | Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 8 PROC |
+| gdantimi/helmeschallenge    |      |      |       |                                                  |
+| adamsont/helmes_challenge   | C    | 5118 | 899   | Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 8 PROC |
+| Lauri-Nomme/filteranagrams  | C    | 2996 | 329   | Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 8 PROC |

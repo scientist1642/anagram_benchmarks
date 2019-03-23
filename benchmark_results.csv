@@ -1,6 +1,7 @@
 repo,lang,mean,stdev,cpu_info
-intgr/anaXgram,Rust,8515,2177,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
-scientist1642/hlm_challenge,Cpp,6561,4229,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
-adamsont/helmes_challenge,C,13858,3506,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
-gdantimi/helmeschallenge,Java,68373,9079,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
-Lauri-Nomme/filteranagrams,C,8666,1562,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
+intgr/anaXgram,Rust,9025,1574,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
+scientist1642/hlm_challenge,Cpp,6137,1259,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
+adamsont/helmes_challenge,C,13431,3415,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
+gdantimi/helmeschallenge,Java,73790,13149,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
+Lauri-Nomme/filteranagrams,C,8374,1358,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
+f0c14e08c2/adfa074714,Java,6516,1046,Intel(R) Core(TM) i7-4750HQ CPU @ 2.00GHz 2 PROC
