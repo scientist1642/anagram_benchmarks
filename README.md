@@ -55,6 +55,7 @@ i7-7700HQ
 | Lauri-Nomme/filteranagrams-pread | C    | 11637 | 1250  | Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 8 PROC |
 
 i7-6700HQ
+
 | repo                        | lang | mean | stdev | cpu_info                                         |
 |-----------------------------|------|------|-------|--------------------------------------------------|
 | intgr/anaXgram              | Rust | 1901 | 211   | Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 8 PROC |
