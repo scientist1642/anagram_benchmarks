@@ -3,6 +3,11 @@ Obviously timing will be differt on different machines, so you can run this on y
 
 Open an issue if you want to add your solution in results.
 
+# Problem description 
+
+The result should be an executable application, that finds all anagrams for provided word from a provided dictionary as fast as possible. The application is responsible for calculating the execution time and returning it in microseconds (μs). We will be testing your code against the dictionary found [here](https://github.com/scientist1642/anagram_benchmarks/tree/master/dictionaries):  (All files are the same in that directory)
+
+
 # Usage
 `git clone https://github.com/scientist1642/anagram_benchmarks --recursive`
 
